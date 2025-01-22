@@ -5,6 +5,6 @@ public class Entry
     public string _entryText;
     public string Display()
     {
-        return $"Date: {_date} - Prompt: ({_promptText}) \n {_entryText}  \n";
+        return $"Date: {_date} - Prompt: ({_promptText}) \n{_entryText}\n";
     }
 }
